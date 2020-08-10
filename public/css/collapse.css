@@ -1,0 +1,52 @@
+/* Collapse (for questions page) */
+.collapse-div {
+    margin-top: 50px;
+}
+
+.collapse-div .collapse-item {
+    margin: 20px 0;
+}
+
+.collapse-div .collapse-item .collapsible {
+    background-color: #ddd;
+    color: #444;
+    cursor: pointer;
+    padding: 14px 18px;
+    width: 100%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+.collapse-div .collapse-item .collapsible:after {
+    content: '˂';
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    margin-left: 5px;
+}
+
+.collapse-div .collapse-item .active, .collapse-div .collapse-item .collapsible:hover {
+    background-color: #ccc;
+}
+
+.collapse-div .collapse-item .active:after {
+    content: "˅";
+}
+
+.collapse-div .collapse-item .content {
+    padding: 0 25px;
+    margin-top: -5px;
+    background-color: #eee;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 0 0 5px 5px;
+}
+
+.collapse-div .collapse-item .content p {
+    padding-top: 10px;
+}

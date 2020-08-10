@@ -1,0 +1,129 @@
+.box {
+    width: 90%;
+    min-height: 250px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #fdfdfd;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #9f9f9f;
+}
+
+.box .row {
+    margin: 0;
+}
+
+/* Box Image */
+.box .box-image {
+    padding: 10px;
+}
+
+.box .box-image img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 10px;
+}
+
+/* Box Details */
+.box .box-details {
+    min-height: 180px;
+    padding: 15px;
+    border-bottom: 1px solid #b5b5b5;
+}
+
+.box .box-details .details-title h2 {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.box .box-details .details-text p {
+    margin: 0;
+    text-align: justify;
+    line-height: 2em;
+}
+
+/* Box Buttons */
+.box .box-btn {
+    float: left;
+}
+
+.box .box-btn a {
+    display: inline-block;
+    padding: 6px 15px;
+    margin: 15px 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.box .box-btn a i {
+    margin-left: 2px;
+}
+
+.box .box-btn .show-btn {
+    color: #5ebe00;
+    border: 1px solid #5ebe00;
+}
+
+.box .box-btn .edit-btn {
+    color: #27BEC4;
+    border: 1px solid #27BEC4;
+}
+
+.box .box-btn .delete-btn {
+    color: #FF642F;
+    border: 1px solid #FF642F;
+}
+
+.box .box-btn .show-btn:hover {
+    color: #fdfdfd;
+    background-color: #5ebe00;
+    transition: 0.3s;
+}
+
+.box .box-btn .edit-btn:hover {
+    color: #fdfdfd;
+    background-color: #27BEC4;
+    transition: 0.3s;
+}
+
+.box .box-btn .delete-btn:hover {
+    color: #fdfdfd;
+    background-color: #FF642F;
+    transition: 0.3s;
+}
+
+.box .box-btn span {
+    float: left;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #7d7a7a;
+}
+
+
+/* Media Screen */
+@media screen and (max-width: 1199px) {
+    .box .box-btn {
+        width: 100%;
+        float: right;
+    }
+}
+
+
+
+
+/* Home Box Style */
+.news-container {
+    width: 85%; /* Change 2 */
+    direction: rtl;
+}
+
+
+@media screen and (max-width: 768px){
+    .news-container {
+        width: 95% !important; /* Change */
+        margin: 60px auto !important; /* Change */
+    }
+}

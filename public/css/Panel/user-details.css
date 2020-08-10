@@ -1,0 +1,124 @@
+body {
+    background-image: none;
+}
+
+.container {
+    width: 100%;
+    color: #636363;
+}
+
+/* User Details */
+.user-details {
+    height: auto;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px #9f9f9f;
+}
+
+/* Sibebar */
+.page-sidebar .page-sidebar-menu > li > a > .title {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* Title */
+.page-title {
+    padding: 10px;
+    border-bottom: 1px solid #636363;
+}
+
+.page-title h4 { /* New */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Extra Style For Form */
+.avatar-div {
+    border: 2px solid #636363;
+}
+
+/*input[disabled] , select[disabled] {*/
+    /*background-color: #F2F2F2;*/
+/*}*/
+
+.input-div input, select, textarea {
+    line-height: 25px;
+    background-color: #fcfcfc;
+    border: 1px solid #636363;
+}
+
+.input-div textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 100px;
+}
+
+.input-div .confirm-btn button , .input-div .confirm-btn .cancel-btn , .input-div .confirm-btn .edit-btn-a {
+    line-height: 30px;
+    background-color: #fcfcfc;
+}
+
+.input-div .confirm-btn .edit-btn {
+    color: #27BEC4;
+    border: 2px solid #27BEC4;
+}
+
+.input-div .confirm-btn .edit-btn-a {
+    padding: 2px 30px;
+    color: #27BEC4;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #27BEC4;
+}
+
+.input-div .confirm-btn .edit-btn:hover , .input-div .confirm-btn .edit-btn-a:hover {
+    color: #fff;
+    background-color: #27BEC4;
+    border: 2px solid #27BEC4;
+    transition: 0.5s;
+}
+
+.input-div .confirm-btn .cancel-btn {
+    padding: 2px 40px;
+    text-align: center;
+}
+
+
+/* Media Screen */
+@media screen and (max-width: 768px){
+    .user-details {
+        margin: 0;
+    }
+}
+
+
+/* New */
+/* About Company Styles */
+.user-details .company-desc h2.comp-name {
+    margin: 20px 0;
+}
+
+.user-details .company-desc p {
+    text-align: justify;
+}
+
+.user-details .company-desc span {
+    margin-right: 15px;
+}
+
+.user-details .company-desc span.comp-details.margin-top-20 {
+    margin-top: 20px;
+}
+
+.user-details .company-desc span.comp-details {
+    display: block;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+
+.user-details .company-desc span.comp-details i {
+    margin-left: 5px;
+}

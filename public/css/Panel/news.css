@@ -1,0 +1,66 @@
+/* News Divition */
+.news-div {
+    padding: 10px;
+}
+
+/* News Image */
+.news-div .news-image {
+    width: 80%;
+    margin: 40px auto;
+}
+.news-div .news-image img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+/* News Details */
+.news-div .news-details {
+    width: 80%;
+    margin: 20px auto;
+}
+.news-div .news-details .news-date {
+    text-align: right;
+}
+.news-div .news-details .news-date i {
+    margin-left: 5px;
+}
+.news-div .news-details .news-title {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.news-div .news-details .news-title h1 {
+    margin-bottom: 20px;
+}
+
+/* News Text */
+.news-div .news-text {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 2;
+    text-align: justify;
+}
+
+/* News Buttons */
+.news-div .news-btn {
+    width: 95%;
+    margin: 40px auto 20px;
+}
+.news-div .news-btn a {
+    padding: 2px 40px;
+    font-size: 18px;
+    color: #FF642F;
+    text-decoration: none;
+    border: 2px solid #FF642F;
+    border-radius: 10px;
+}
+.news-div .news-btn a:hover {
+    color: #fafafa;
+    background-color: #FF642F;
+    transition: 0.3s;
+}

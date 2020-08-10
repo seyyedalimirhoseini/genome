@@ -1,0 +1,161 @@
+/* Login Page Style */
+body {
+    background-image: url("../../../images/background.jpg");
+}
+
+.container {
+    width: 80%;
+    margin: 0;
+}
+
+.form {
+    margin-top: 50px;
+    text-align: right;
+}
+
+/* Avatar */
+.avatar-div {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 50%;
+    border: 5px solid #27BEC4;
+}
+
+.avatar-div img {
+    display: block;
+    width: 90%; /* Change */
+    height: 90%; /* Change */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+border-radius: 50%; /* New */
+    transform: translate(-50%,-50%);
+}
+
+/* Inputs */
+.input-div {
+    padding: 20px;
+    margin-top: 20px;
+    direction: rtl;
+}
+
+.input-div .row .col-md-6 , .input-div .row .col-md-7 , .input-div .row .col-md-2 , .input-div .row .col-md-12 {
+    float: right;
+    margin-bottom: 10px;
+}
+
+form label {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+form label i {
+    margin-left: 5px;
+    font-size: 12px;
+    color: #FF642F;
+}
+
+form input,select,textarea {
+    width: 100%;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid #27BEC4;
+    background-color: #fff;
+}
+
+/* New */
+form select {
+    padding: 2px 15px;
+}
+
+.input-div .confirm-btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input-div .confirm-btn button , .input-div .confirm-btn a {
+    width: 40%;
+    padding: 5px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.input-div .confirm-btn .login-btn {
+    color: #5ebe00;
+    background-color: #fff;
+    border: 2px solid #5ebe00;
+}
+
+.confirm-btn .login-btn:hover {
+    color: #fff;
+    background-color: #5ebe00;
+    transition: 0.5s;
+}
+
+.input-div .confirm-btn .cancel-btn {
+    padding: 3px 40px;
+    color: #FF642F;
+text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    border: 2px solid #FF642F;
+}
+
+.input-div .confirm-btn .cancel-btn:hover {
+    color: #fff;
+    background-color: #FF642F;
+    transition: 0.5s;
+}
+
+.margin-top-0 {
+    margin-top: 0;
+}
+
+
+/* Media Screen */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .input-div .row .col-md-6 , .input-div .row .col-md-7 { /* Change */
+        float: none;
+    }
+
+    .input-div .confirm-btn button , .input-div .confirm-btn a {
+        display: block;
+        width: 75%;
+        margin: 25px auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .avatar-div {
+        width: 150px;
+        height: 150px;
+        border: 2px solid #27BEC4;
+    }
+
+    .input-div {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .avatar-div {
+        width: 100px;
+        height: 100px;
+    }
+}
